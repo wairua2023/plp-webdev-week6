@@ -178,6 +178,15 @@ function dateLabel(s) {
         }).format(d);
 }
 
+// Automatically display current month and year
+const currentMonthElement = document.getElementById("currentMonth");
+
+const today = new Date();
+
+currentMonthElement.textContent = today.toLocaleDateString("en-GB", {
+    month: "long",
+    year: "numeric"
+});
 function displayExpenses() {
     el.transactionRows.replaceChildren();
 
