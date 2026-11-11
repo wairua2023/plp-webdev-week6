@@ -1,4 +1,4 @@
-# SpendWise Interactive Dashboard
+# SpendWise Interactive Dashboard Live on Netlify
 
 ## Project description
 SpendWise is a responsive personal finance dashboard built with HTML, CSS, and JavaScript. It extends the original dashboard with interactive income management, expense recording, deletion, budget-health feedback, and dynamic transaction rendering.
@@ -52,7 +52,7 @@ The HTML should include `<link rel="stylesheet" href="styles.css">` in the head 
 For example, with income of KSh 120,000 and expenses of KSh 76,400, the remaining balance is KSh 43,600 and 63.7% of income has been spent.
 
 ## Live Netlify Website URL
-https://wairua-rationalspending.netlify.app/
+https://rational-spending.netlify.app/
 
 ## Testing checklist
 - [ ] Update income with a valid positive amount.
@@ -72,6 +72,9 @@ https://wairua-rationalspending.netlify.app/
 - Clearing browser storage removes saved data.
 - The project does not connect to banks, process payments, or provide financial advice.
 - The category cards are sample figures; the summary and transaction list are updated from the interactive expense records.
+
+## lessons learned
+For testing purposes, netlify  can be a good platiform 
 
 ## Conclusion
 SpendWise demonstrates how HTML, CSS, and JavaScript work together to create an interactive budgeting dashboard. Users can manage income and expense records and see budget calculations respond to their actions.
