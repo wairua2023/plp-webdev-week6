@@ -51,6 +51,9 @@ The HTML should include `<link rel="stylesheet" href="styles.css">` in the head 
 
 For example, with income of KSh 120,000 and expenses of KSh 76,400, the remaining balance is KSh 43,600 and 63.7% of income has been spent.
 
+## Live Netlify Website URL
+https://wairua-rationalspending.netlify.app/
+
 ## Testing checklist
 - [ ] Update income with a valid positive amount.
 - [ ] Try invalid income and confirm validation appears.
@@ -63,7 +66,8 @@ For example, with income of KSh 120,000 and expenses of KSh 76,400, the remainin
 - [ ] Clear all expenses and verify the empty-state message.
 - [ ] Refresh and verify data persistence.
 
-## Limitations
+## Limitations/challenges
+-challenges of navigating the netlify 
 - Data is saved only in the current browser and is not synchronized between devices.
 - Clearing browser storage removes saved data.
 - The project does not connect to banks, process payments, or provide financial advice.
